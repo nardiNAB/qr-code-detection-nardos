@@ -5,24 +5,26 @@ QR Code Detection and Decoding (Multi QR Support)
     Date: June 8, 2025
 
 Project Description
-    This project detects and decodes multiple QR codes in static images using OpenCV’s QRCodeDetector. It supports automatic annotation, decoding, and visual output saving for analysis and presentation. The system was evaluated on sample test images including 
+
+This project detects and decodes multiple QR codes in static images using OpenCV’s QRCodeDetector. It supports automatic annotation, decoding, and saving of visual output for analysis and presentation. The system was evaluated on sample test images, including 
 
 Technologies Used
-    Python 3.14
-    OpenCV (cv2)
-    Matplotlib
+
+Python 3.14
+OpenCV (cv2)
+Matplotlib
 
 Folder Structure
-    images/ → Input images (Kaggle + test cases)
-    results/ → Output images with bounding boxes + decoded text
-    main.py → Detection script
-    report.pdf → Academic report (generated from this project)
-    presentation.pptx → Presentation slides
+
+images/ → Input images (Kaggle + test cases)
+results/ → Output images with bounding boxes + decoded text
+main.py → Detection script
 
 How to Run
-    1. Install dependencies:
-        pip install opencv-python matplotlib
-    2. Place images into the /images folder.
-    3. Run the script:
-        python main.py
-    4. Processed images will be saved to /results with bounding boxes and decoded text.
+
+1. Install dependencies:
+    pip install opencv-python matplotlib
+2. Place images into the /images folder.
+3. Run the script:
+    python main.py
+4. Processed images will be saved to /results with bounding boxes and decoded text.
